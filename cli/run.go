@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/schollz/progressbar/v3"
 	"github.com/spf13/cobra"
 	"github.com/tobedeterminedhq/tbd/lib"
 	"github.com/tobedeterminedhq/tbd/lib/connectionconfig"
