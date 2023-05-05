@@ -6,7 +6,7 @@ import (
 	"strings"
 	"text/template"
 
-	servicev1 "github.com/benfdking/tbd/proto/gen/go/tbd/service/v1"
+	servicev1 "github.com/tobedeterminedhq/tbd/proto_gen/go/tbd/service/v1"
 )
 
 func renderColumnTestFromString(templateString string, path string, columnName string, customInfo map[string]string) (string, error) {

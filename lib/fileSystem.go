@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	servicev1 "github.com/benfdking/tbd/proto/gen/go/tbd/service/v1"
 	"github.com/psanford/memfs"
+	servicev1 "github.com/tobedeterminedhq/tbd/proto_gen/go/tbd/service/v1"
 )
 
 // NewFileSystem generates an in memory filesystem from proto

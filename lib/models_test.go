@@ -7,11 +7,11 @@ import (
 	"io"
 	"testing"
 
-	"github.com/benfdking/tbd/go/lib"
-	"github.com/benfdking/tbd/go/lib/databasesImplementation"
-	servicev1 "github.com/benfdking/tbd/proto/gen/go/tbd/service/v1"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tobedeterminedhq/tbd/lib"
+	"github.com/tobedeterminedhq/tbd/lib/databasesImplementation"
+	servicev1 "github.com/tobedeterminedhq/tbd/proto_gen/go/tbd/service/v1"
 )
 
 func TestParseModelSchemasToViews(t *testing.T) {

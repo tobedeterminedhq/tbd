@@ -1,6 +1,6 @@
 package main
 
-import "github.com/benfdking/tbd/go/cmd/cli"
+import "github.com/tobedeterminedhq/tbd/cli"
 
 func main() {
 	cli.Execute()

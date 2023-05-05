@@ -4,9 +4,9 @@ import (
 	"io/fs"
 	"testing"
 
-	servicev1 "github.com/benfdking/tbd/proto/gen/go/tbd/service/v1"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	servicev1 "github.com/tobedeterminedhq/tbd/proto_gen/go/tbd/service/v1"
 )
 
 func Test_listAllFilesInDirectoryRecursively(t *testing.T) {

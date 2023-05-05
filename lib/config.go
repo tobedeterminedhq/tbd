@@ -9,8 +9,8 @@ import (
 	"regexp"
 	"strings"
 
-	servicev1 "github.com/benfdking/tbd/proto/gen/go/tbd/service/v1"
 	"github.com/samber/lo"
+	servicev1 "github.com/tobedeterminedhq/tbd/proto_gen/go/tbd/service/v1"
 	"sigs.k8s.io/yaml"
 )
 

@@ -4,10 +4,10 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/benfdking/tbd/go/lib/databasesImplementation/databaseImplementationBase"
+	"github.com/tobedeterminedhq/tbd/lib/databasesImplementation/databaseImplementationBase"
 
-	"github.com/benfdking/tbd/go/lib/databases"
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/tobedeterminedhq/tbd/lib/databases"
 )
 
 func (m Mysql) SeedsDropTableQuery(tableName string) string {

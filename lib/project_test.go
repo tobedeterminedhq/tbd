@@ -5,12 +5,12 @@ import (
 	"io/fs"
 	"testing"
 
-	"github.com/benfdking/tbd/go/lib/databasesImplementation"
+	"github.com/tobedeterminedhq/tbd/lib/databasesImplementation"
 
 	"github.com/stretchr/testify/require"
 
-	servicev1 "github.com/benfdking/tbd/proto/gen/go/tbd/service/v1"
 	"github.com/stretchr/testify/assert"
+	servicev1 "github.com/tobedeterminedhq/tbd/proto_gen/go/tbd/service/v1"
 )
 
 func TestReplaceReferenceStringFound(t *testing.T) {

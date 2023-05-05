@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/benfdking/tbd/go/lib/databases"
 	"github.com/samber/lo"
+	"github.com/tobedeterminedhq/tbd/lib/databases"
 )
 
 // ParseTableSchemaSeeds returns the SQL statements to create a table and insert the data from a CSV file.

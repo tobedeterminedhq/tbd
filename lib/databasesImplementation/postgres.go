@@ -4,10 +4,10 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/benfdking/tbd/go/lib/databasesImplementation/databaseImplementationBase"
+	"github.com/tobedeterminedhq/tbd/lib/databasesImplementation/databaseImplementationBase"
 
-	"github.com/benfdking/tbd/go/lib/databases"
 	_ "github.com/jackc/pgx/v5"
+	"github.com/tobedeterminedhq/tbd/lib/databases"
 )
 
 func (p Postgres) SeedsDropTableQuery(tableName string) string {

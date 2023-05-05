@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	servicev1 "github.com/benfdking/tbd/proto/gen/go/tbd/service/v1"
 	"github.com/stretchr/testify/assert"
+	servicev1 "github.com/tobedeterminedhq/tbd/proto_gen/go/tbd/service/v1"
 )
 
 func Test_parseConfig(t *testing.T) {

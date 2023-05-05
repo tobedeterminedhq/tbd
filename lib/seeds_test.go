@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/benfdking/tbd/go/lib"
-	"github.com/benfdking/tbd/go/lib/databasesImplementation"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tobedeterminedhq/tbd/lib"
+	"github.com/tobedeterminedhq/tbd/lib/databasesImplementation"
 )
 
 func TestDefaultSql_ParseTableSchemaSeeds(t *testing.T) {

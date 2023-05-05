@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/benfdking/tbd/go/lib/databases"
+	"github.com/tobedeterminedhq/tbd/lib/databases"
 )
 
 // RunTestSql runs a test sql statement and returns an error if the test fails

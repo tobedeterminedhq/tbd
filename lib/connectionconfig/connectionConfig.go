@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/benfdking/tbd/go/lib/databases"
-	"github.com/benfdking/tbd/go/lib/databasesImplementation"
-	servicev1 "github.com/benfdking/tbd/proto/gen/go/tbd/service/v1"
+	"github.com/tobedeterminedhq/tbd/lib/databases"
+	"github.com/tobedeterminedhq/tbd/lib/databasesImplementation"
+	servicev1 "github.com/tobedeterminedhq/tbd/proto_gen/go/tbd/service/v1"
 	"google.golang.org/protobuf/encoding/protojson"
 	"sigs.k8s.io/yaml"
 )

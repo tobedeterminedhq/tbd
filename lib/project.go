@@ -8,10 +8,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/benfdking/tbd/go/lib/databases"
+	"github.com/tobedeterminedhq/tbd/lib/databases"
 
-	servicev1 "github.com/benfdking/tbd/proto/gen/go/tbd/service/v1"
 	"github.com/samber/lo"
+	servicev1 "github.com/tobedeterminedhq/tbd/proto_gen/go/tbd/service/v1"
 )
 
 // ProjectAndFsToSqlForViews returns both the sql for the seeds and the sql for the models.

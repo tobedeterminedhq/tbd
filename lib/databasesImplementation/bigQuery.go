@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/benfdking/tbd/go/lib/databasesImplementation/databaseImplementationBase"
+	"github.com/tobedeterminedhq/tbd/lib/databasesImplementation/databaseImplementationBase"
 
 	_ "gorm.io/driver/bigquery/driver"
 )

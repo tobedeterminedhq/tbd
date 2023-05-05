@@ -4,7 +4,7 @@ import (
 	"io/fs"
 	"strings"
 
-	servicev1 "github.com/benfdking/tbd/proto/gen/go/tbd/service/v1"
+	servicev1 "github.com/tobedeterminedhq/tbd/proto_gen/go/tbd/service/v1"
 )
 
 // FSToProtoFileSystem converts an fs.FS to a proto FileSystem so that it can be sent to the frontend.

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	servicev1 "github.com/benfdking/tbd/proto/gen/go/tbd/service/v1"
+	servicev1 "github.com/tobedeterminedhq/tbd/proto_gen/go/tbd/service/v1"
 	"sigs.k8s.io/yaml"
 )
 

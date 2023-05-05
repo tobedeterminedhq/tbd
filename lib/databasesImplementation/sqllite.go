@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/benfdking/tbd/go/lib/databasesImplementation/databaseImplementationBase"
+	"github.com/tobedeterminedhq/tbd/lib/databasesImplementation/databaseImplementationBase"
 
 	_ "github.com/glebarez/go-sqlite"
 )

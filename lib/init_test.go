@@ -10,10 +10,10 @@ import (
 	"testing"
 	"testing/fstest"
 
-	"github.com/benfdking/tbd/go/lib"
-	"github.com/benfdking/tbd/go/lib/databasesImplementation"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/tobedeterminedhq/tbd/lib"
+	"github.com/tobedeterminedhq/tbd/lib/databasesImplementation"
 )
 
 // TestInit_ParseProjectAndApply tests that the project can be parsed and applied to a database. This test works fully in
