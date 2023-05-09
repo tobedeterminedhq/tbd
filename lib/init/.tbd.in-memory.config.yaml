@@ -1,3 +1,0 @@
-name: my-connection
-sqlite:
-  path: db.sqlite

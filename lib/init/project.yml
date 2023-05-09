@@ -1,4 +1,0 @@
-model_paths: ['models']
-seed_paths: ['seeds']
-test_paths: ['tests']
-custom_test_paths: ['custom_tests']
